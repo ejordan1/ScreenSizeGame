@@ -7,6 +7,7 @@ namespace ToDoList.Models
     public virtual DbSet<Category> Categories { get; set; }
     public DbSet<Item> Items { get; set; }
     
+    public DbSet<Item> Player1Widths{get; set;}
     public ToDoListContext(DbContextOptions options) : base(options) { }
   }
 }
